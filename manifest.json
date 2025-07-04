@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Auto Refresh on Idle",
+    "version": "1.0",
+    "description": "Auto-refresh page after 1 minute of user inactivity.",
+    "permissions": ["scripting", "tabs"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+      }
+    ],
+    "action": {
+      "default_title": "Auto Refresh on Idle"
+    }
+  }
+  
