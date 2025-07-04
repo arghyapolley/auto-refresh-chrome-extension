@@ -1,6 +1,6 @@
 **Auto-Refresh Chrome Extension**
 
-Lightweight Chrome extension to automatically refresh a webpage at a set interval with optional stop-on-change → perfect for staying updated without manual effort.
+Lightweight Chrome extension to automatically refresh a webpage at a set interval with optional stop on change → perfect for staying updated without manual effort.
 
 **Features (Upcoming)**
 
