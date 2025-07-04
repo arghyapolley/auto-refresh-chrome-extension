@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Auto Refresh on Idle</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h2>Auto Refresh on Idle</h2>
+  <label for="interval">Refresh Interval (seconds):</label>
+  <input type="number" id="interval" min="1" value="1" />
+  <br><br>
+  <button id="startButton">Start Auto Refresh</button>
+  <button id="stopButton" style="margin-top: 10px; background-color: #dc3545;">Stop Auto Refresh</button>
+  <p id="status">Auto-refresh is stopped</p>
+
+  <script src="popup.js"></script>
+</body>
+</html>

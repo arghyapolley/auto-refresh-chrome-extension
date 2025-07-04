@@ -1,0 +1,43 @@
+body {
+    background-color: #121212;
+    color: white;
+    font-family: sans-serif;
+    padding: 20px;
+    width: 250px;
+  }
+  
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: white;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    filter: brightness(90%);
+  }
+  
+  #stopButton {
+    background-color: #dc3545;
+  }
+  
+  #status {
+    margin-top: 10px;
+    font-size: 0.9em;
+  }
+  
