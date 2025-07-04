@@ -1,8 +1,8 @@
-Auto-Refresh Chrome Extension
+**Auto Refresh Chrome Extension**
 
 A lightweight Chrome extension to automatically refresh a webpage at a set interval with optional stop on change perfect for staying updated without manual effort.
 ---
-Features
+**Features**
 
 - Set custom refresh interval (in seconds)  
 - Saves settings across browser sessions (interval & stop condition)  
@@ -11,7 +11,7 @@ Features
 
 ---
 
-Install
+**Install**
 
 Chrome Web Store
 
@@ -19,7 +19,7 @@ Coming Soon...
 
 ---
 
-Manual Installation (For Testing/Development)
+**Manual Installation (For Testing/Development)**
 
 1. Clone the repo:
  git clone https://github.com/arghyapolley/auto-refresh-chrome-extension.git
@@ -39,7 +39,7 @@ chrome://extensions/
 
 ---
 
-Usage
+**Usage**
 
 1. Click the extension icon in the Chrome toolbar
 2. Set the refresh interval (in seconds)
